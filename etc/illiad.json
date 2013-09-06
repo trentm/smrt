@@ -1,0 +1,38 @@
+{
+    "source": "http://en.wikipedia.org/wiki/List_of_Homeric_characters",
+    "greeks": [
+        "Achilles",
+        "Agamemnon",
+        "Ajax",
+        "Calchas",
+        "Diomedes",
+        "Helen",
+        "Idomeneus",
+        "Menelaus",
+        "Nestor",
+        "Odysseus",
+        "Patroclus",
+        "Phoenix",
+        "Teucer"
+    ],
+    "trojans": [
+        "Aeneas",
+        "Agenor",
+        "Antenor",
+        "Glaucus",
+        "Hector",
+        "Paris",
+        "Polydamas",
+        "Priam",
+        "Sarpedon"
+    ],
+    "gods": [
+        "Aphrodite",
+        "Athena",
+        "Hera",
+        "Hermes",
+        "Iris",
+        "Poseidon",
+        "Zeus"
+    ]
+}

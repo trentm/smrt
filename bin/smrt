@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+/*
+ * Copyright (c) 2013 Joyent Inc. All rights reserved.
+ *
+ * Homeric SDC.
+ */
+
+var p = console.log;
+var cmdln = require('cmdln');
+var CLI = require('../lib/cli');
+
+if (require.main === module) {
+    cmdln.main(CLI, process.arg, {showCode: true});
+}

@@ -1,0 +1,37 @@
+{
+  "name": "smrt",
+  "version": "1.0.0",
+  "description": "Homeric SmartDataCenter (SDC) usage",
+  "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
+  "bin": {
+    "smrt": "./bin/smrt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trentm/smrt.git"
+  },
+  "keywords": [
+    "smrt",
+    "homer",
+    "homeric",
+    "iliad",
+    "sdc",
+    "smartdc",
+    "smartdatacenter",
+    "joyent",
+    "jpc"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trentm/smrt/issues"
+  },
+  "dependencies": {
+    "assert-plus": "~0.1.4",
+    "async": "~0.2.9",
+    "bunyan": "~0.21.4",
+    "cmdln": "~1.3.0",
+    "dashdash": "~1.3.2",
+    "smartdc": "git+ssh://git@github.com:joyent/node-smartdc.git#c717823",
+    "extsprintf": "~1.0.2"
+  }
+}
