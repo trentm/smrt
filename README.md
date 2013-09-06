@@ -87,8 +87,9 @@ Examples:
 
 # smrt achilles (NYI)
 
-Rage. Delete all Homeric instances *and images*. Homeric instances and images
-are those tagged with `{"homeric": true}`.
+Achilles' rage. Delete all Homeric instances *and images* (for the current
+smrt profile). Homeric instances and images are those tagged with `{"homeric":
+true}`, use `smrt hermes` to list them all.
 
     smrt achilles [-I|--skip-images] [<name-pattern>]
 
@@ -96,3 +97,22 @@ are those tagged with `{"homeric": true}`.
 # smrt hermes (NYI, better name?)
 
 List all current Homeric images and instances.
+
+    smrt hermes [-a|--all]
+
+Examples:
+
+    $ smrt hermes
+    ... list all machines and images for the current profile.
+
+    $ smrt hermes -a
+    ... for all profiles
+
+
+# smrt aphrodite (NYI)
+
+Setup COAL to be able to use cloudapi in it, then update/add your "coal"
+profile and make it the default.
+
+Aphrodite was also responsible for setting up the Trojan war: by making Paris
+and Helen fall in love.
