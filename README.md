@@ -5,14 +5,16 @@ API](http://apidocs.joyent.com/cloudapi/). There are a number of SDC clouds out
 there. [Joyent has one](https://my.joyentcloud.com). Let's do some stuff with
 an SDC cloudapi while reliving the Iliad.
 
-# smrt paris (NYI)
+# smrt paris
+
+**Status: partially implemented.**
 
 Paris gets it all started. So he'll set it up for you:
 
     smrt paris [<profile>]
 
-This will interactively walk through a setup of envvars (and perhaps keys?)
-for talking to the cloudapi of a selected SDC.
+This will interactively walk through setting up for talking to a given SDC
+cloudapi as a particular user (each such config is called a 'smrt profile').
 
     $ smrt paris -l
     ... list current smrt profiles (i.e. combo of settings for a cloudapi usage)
@@ -22,7 +24,7 @@ for talking to the cloudapi of a selected SDC.
         "smrt: error: no 'west' smrt profile (use '-l' to list profiles, '-c' to create)"
 
     $ smrt paris
-    ... should current profile, if have one:
+    ... show current profile, if have one:
         # Current smrt profile: 'west'
         SDC_URL=https://eu-ams-1.api.joyentcloud.com
         SDC_ACCOUNT=Joyent_Dev
