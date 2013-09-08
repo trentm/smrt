@@ -62,11 +62,26 @@ Aphrodite was also responsible for setting up the Trojan war: by making Paris
 and Helen fall in love.
 
 
-# smrt helen (NYI)
+# smrt iris
 
-Launch a thousand ships... or a few (less than a 1000) instances (aka VMs).
+List all current Homeric images and instances.
 
-    smrt helen [-n <num>] [<image-name>[:<package-name>]]
+    smrt iris [-a|--all]
+
+Examples:
+
+    $ smrt iris
+    ... list all machines and images for the current profile.
+
+    $ smrt iris -a
+    ... for all profiles
+
+
+# smrt helen
+
+Launch a thousand ships... or at least few machine instances (aka VMs).
+
+    smrt helen [-n <num>]
 
 Examples:
 
@@ -78,6 +93,18 @@ Examples:
     ... provisions the instance
     ... repeat N-1 times (default N is 3)
     ... wait for all provisions
+
+TODO:
+    smrt helen [-n <num>] [<image-name>[:<package-name>] ...]
+
+
+# smrt achilles (NYI)
+
+Achilles' rage. Delete all Homeric instances *and images* (for the current
+smrt profile). Homeric instances and images are those tagged with `{"homeric":
+true}`, use `smrt iris` to list them all.
+
+    smrt achilles [-I|--skip-images] [<name-pattern>]
 
 
 # smrt trojan (NYI)
@@ -94,29 +121,3 @@ Examples:
     ... chooses a Trojan name from the Iliad
     ... creates an instance
     XXX
-
-
-# smrt achilles (NYI)
-
-Achilles' rage. Delete all Homeric instances *and images* (for the current
-smrt profile). Homeric instances and images are those tagged with `{"homeric":
-true}`, use `smrt hermes` to list them all.
-
-    smrt achilles [-I|--skip-images] [<name-pattern>]
-
-
-# smrt hermes (NYI, better name?)
-
-List all current Homeric images and instances.
-
-    smrt hermes [-a|--all]
-
-Examples:
-
-    $ smrt hermes
-    ... list all machines and images for the current profile.
-
-    $ smrt hermes -a
-    ... for all profiles
-
-
