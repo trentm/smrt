@@ -5,16 +5,17 @@ API](http://apidocs.joyent.com/cloudapi/). There are a number of SDC clouds out
 there. [Joyent has one](https://my.joyentcloud.com). Let's do some stuff with
 an SDC cloudapi while reliving the Iliad.
 
-# smrt paris
+# smrt paris (partially implemented)
 
-**Status: partially implemented.**
+Manage 'smrt profiles', the config to talk to a given SDC cloudapi
+with a particular account. If you are looking to setup your *COAL*,
+then look to `smrt aphrodite`.
 
-Paris gets it all started. So he'll set it up for you:
+Paris got the Trojan War started. So he'll set it up for you:
 
     smrt paris [<profile>]
 
-This will interactively walk through setting up for talking to a given SDC
-cloudapi as a particular user (each such config is called a 'smrt profile').
+This will interactively walk through creating a 'smrt profile'.
 
     $ smrt paris -l
     ... list current smrt profiles (i.e. combo of settings for a cloudapi usage)
@@ -50,12 +51,22 @@ cloudapi as a particular user (each such config is called a 'smrt profile').
         from `ssh-add -l`): ____
 
 
+# smrt aphrodite
+
+Setup COAL to be able to use cloudapi in it, then update/add your "coal"
+profile and make it the default.
+
+    $ smrt aphrodite
+
+Aphrodite was also responsible for setting up the Trojan war: by making Paris
+and Helen fall in love.
+
 
 # smrt helen (NYI)
 
 Launch a thousand ships... or a few (less than a 1000) instances (aka VMs).
 
-    smrt helen [-n <num-insts>] [<image-name>[:<package-name>]]
+    smrt helen [-n <num>] [<image-name>[:<package-name>]]
 
 Examples:
 
@@ -109,10 +120,3 @@ Examples:
     ... for all profiles
 
 
-# smrt aphrodite (NYI)
-
-Setup COAL to be able to use cloudapi in it, then update/add your "coal"
-profile and make it the default.
-
-Aphrodite was also responsible for setting up the Trojan war: by making Paris
-and Helen fall in love.

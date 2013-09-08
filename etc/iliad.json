@@ -1,38 +1,57 @@
 {
-    "source": "http://en.wikipedia.org/wiki/List_of_Homeric_characters",
-    "greeks": [
-        "Achilles",
-        "Agamemnon",
-        "Ajax",
-        "Calchas",
-        "Diomedes",
-        "Helen",
-        "Idomeneus",
-        "Menelaus",
-        "Nestor",
-        "Odysseus",
-        "Patroclus",
-        "Phoenix",
-        "Teucer"
+    "sources": [
+        "http://en.wikipedia.org/wiki/List_of_Homeric_characters",
+        "http://www.sparknotes.com/lit/iliad/characters.html"
     ],
-    "trojans": [
-        "Aeneas",
-        "Agenor",
-        "Antenor",
-        "Glaucus",
-        "Hector",
-        "Paris",
-        "Polydamas",
-        "Priam",
-        "Sarpedon"
-    ],
-    "gods": [
-        "Aphrodite",
-        "Athena",
-        "Hera",
-        "Hermes",
-        "Iris",
-        "Poseidon",
-        "Zeus"
-    ]
+    "greeks": {
+        "Achilles": "The son of the military man Peleus and the sea-nymph Thetis. The most powerful warrior in The Iliad, Achilles commands the Myrmidons, soldiers from his homeland of Phthia in Greece. Proud and headstrong, he takes offense easily and reacts with blistering indignation when he perceives that his honor has been slighted. Achilles’ wrath at Agamemnon for taking his war prize, the maiden Briseis, forms the main subject of The Iliad.",
+        "Agamemnon": "King of Mycenae and leader of the Achaean army; brother of King Menelaus of Sparta. Arrogant and often selfish, Agamemnon provides the Achaeans with strong but sometimes reckless and self-serving leadership. Like Achilles, he lacks consideration and forethought. Most saliently, his tactless appropriation of Achilles’ war prize, the maiden Briseis, creates a crisis for the Achaeans, when Achilles, insulted, withdraws from the war.",
+        "Ajax": "An Achaean commander, Great Ajax (sometimes called “Telamonian Ajax” or simply “Ajax”) is the second mightiest Achaean warrior after Achilles. His extraordinary size and strength help him to wound Hector twice by hitting him with boulders. He often fights alongside Little Ajax, and the pair is frequently referred to as the “Aeantes.”",
+        "Calchas": "An important soothsayer. Calchas’s identification of the cause of the plague ravaging the Achaean army in Book 1 leads inadvertently to the rift between Agamemnon and Achilles that occupies the first nineteen books of The Iliad.",
+        "Diomedes": "The youngest of the Achaean commanders, Diomedes is bold and sometimes proves impetuous. After Achilles withdraws from combat, Athena inspires Diomedes with such courage that he actually wounds two gods, Aphrodite and Ares.",
+        "Helen": "Reputed to be the most beautiful woman in the ancient world, Helen was stolen from her husband, Menelaus, and taken to Troy by Paris. She loathes herself now for the misery that she has caused so many Trojan and Achaean men. Although her contempt extends to Paris as well, she continues to stay with him.",
+        "Idomeneus": "King of Crete and a respected commander. Idomeneus leads a charge against the Trojans in Book 13.",
+        "Little Ajax": "An Achaean commander, Little Ajax is the son of Oileus (to be distinguished from Great Ajax, the son of Telamon). He often fights alongside Great Ajax, whose stature and strength complement Little Ajax’s small size and swift speed. The two together are sometimes called the “Aeantes.”",
+        "Machaon": "A healer. Machaon is wounded by Paris in Book 11.",
+        "Menelaus": "King of Sparta; the younger brother of Agamemnon. While it is the abduction of his wife, Helen, by the Trojan prince Paris that sparks the Trojan War, Menelaus proves quieter, less imposing, and less arrogant than Agamemnon. Though he has a stout heart, Menelaus is not among the mightiest Achaean warriors.",
+        "Nestor": "King of Pylos and the oldest Achaean commander. Although age has taken much of Nestor’s physical strength, it has left him with great wisdom. He often acts as an advisor to the military commanders, especially Agamemnon. Nestor and Odysseus are the Achaeans’ most deft and persuasive orators, although Nestor’s speeches are sometimes long-winded.",
+        "Odysseus": "A fine warrior and the cleverest of the Achaean commanders. Along with Nestor, Odysseus is one of the Achaeans’ two best public speakers. He helps mediate between Agamemnon and Achilles during their quarrel and often prevents them from making rash decisions.",
+        "Patroclus": "Achilles’ beloved friend, companion, and advisor, Patroclus grew up alongside the great warrior in Phthia, under the guardianship of Peleus. Devoted to both Achilles and the Achaean cause, Patroclus stands by the enraged Achilles but also dons Achilles’ terrifying armor in an attempt to hold the Trojans back.",
+        "Peleus": "Achilles’ father and the grandson of Zeus. Although his name often appears in the epic, Peleus never appears in person. Priam powerfully invokes the memory of Peleus when he convinces Achilles to return Hector’s corpse to the Trojans in Book 24.",
+        "Phoenix": "A kindly old warrior, Phoenix helped raise Achilles while he himself was still a young man. Achilles deeply loves and trusts Phoenix, and Phoenix mediates between him and Agamemnon during their quarrel.",
+        "Teucer": "During the Trojan War, Teucer was mainly a great archer, who loosed his shafts from behind the giant shield of his half-brother Ajax the Great."
+    },
+    "trojans": {
+        "Hector": "A son of King Priam and Queen Hecuba, Hector is the mightiest warrior in the Trojan army. He mirrors Achilles in some of his flaws, but his bloodlust is not so great as that of Achilles. He is devoted to his wife, Andromache, and son, Astyanax, but resents his brother Paris for bringing war upon their family and city.",
+        "Priam": "King of Troy and husband of Hecuba, Priam is the father of fifty Trojan warriors, including Hector and Paris. Though too old to fight, he has earned the respect of both the Trojans and the Achaeans by virtue of his level-headed, wise, and benevolent rule. He treats Helen kindly, though he laments the war that her beauty has sparked.",
+        "Hecuba": "Queen of Troy, wife of Priam, and mother of Hector and Paris.",
+        "Paris": "A son of Priam and Hecuba and brother of Hector. Paris’s abduction of the beautiful Helen, wife of Menelaus, sparked the Trojan War. Paris is self-centered and often unmanly. He fights effectively with a bow and arrow (never with the more manly sword or spear) but often lacks the spirit for battle and prefers to sit in his room making love to Helen while others fight for him, thus earning both Hector’s and Helen’s scorn.",
+        "Aeneas": "A Trojan nobleman, the son of Aphrodite, and a mighty warrior. The Romans believed that Aeneas later founded their city (he is the protagonist of Virgil’s masterpiece the Aeneid).",
+        "Andromache": "Hector’s loving wife, Andromache begs Hector to withdraw from the war and save himself before the Achaeans kill him.",
+        "Astyanax": "Hector and Andromache’s infant son.",
+        "Polydamas": "A young Trojan commander, Polydamas sometimes figures as a foil for Hector, proving cool-headed and prudent when Hector charges ahead. Polydamas gives the Trojans sound advice, but Hector seldom acts on it.",
+        "Glaucus": "A powerful Trojan warrior, Glaucus nearly fights a duel with Diomedes. The men’s exchange of armor after they realize that their families are friends illustrates the value that ancients placed on kinship and camaraderie.",
+        "Agenor": "A Trojan warrior who attempts to fight Achilles in Book 21. Agenor delays Achilles long enough for the Trojan army to flee inside Troy’s walls.",
+        "Dolon": "A Trojan sent to spy on the Achaean camp in Book 10.",
+        "Pandarus": "A Trojan archer. Pandarus’s shot at Menelaus in Book 4 breaks the temporary truce between the two sides.",
+        "Antenor": "A Trojan nobleman, advisor to King Priam, and father of many Trojan warriors. Antenor argues that Helen should be returned to Menelaus in order to end the war, but Paris refuses to give her up.",
+        "Sarpedon": "One of Zeus’s sons. Sarpedon’s fate seems intertwined with the gods’ quibbles, calling attention to the unclear nature of the gods’ relationship to Fate.",
+        "Chryseis": "Chryses’ daughter, a priest of Apollo in a Trojan-allied town.",
+        "Briseis": "A war prize of Achilles. When Agamemnon is forced to return Chryseis to her father, he appropriates Briseis as compensation, sparking Achilles’ great rage.",
+        "Chryses": "A priest of Apollo in a Trojan-allied town; the father of Chryseis, whom Agamemnon takes as a war prize."
+    },
+    "gods": {
+        "Zeus": "King of the gods and husband of Hera, Zeus claims neutrality in the mortals’ conflict and often tries to keep the other gods from participating in it. However, he throws his weight behind the Trojan side for much of the battle after the sulking Achilles has his mother, Thetis, ask the god to do so.",
+        "Hera": "Queen of the gods and Zeus’s wife, Hera is a conniving, headstrong woman. She often goes behind Zeus’s back in matters on which they disagree, working with Athena to crush the Trojans, whom she passionately hates.",
+        "Athena": "The goddess of wisdom, purposeful battle, and the womanly arts; Zeus’s daughter. Like Hera, Athena passionately hates the Trojans and often gives the Achaeans valuable aid.",
+        "Thetis": "A sea-nymph and the devoted mother of Achilles, Thetis gets Zeus to help the Trojans and punish the Achaeans at the request of her angry son. When Achilles finally rejoins the battle, she commissions Hephaestus to design him a new suit of armor.",
+        "Apollo": "A son of Zeus and twin brother of the goddess Artemis, Apollo is god of the sun and the arts, particularly music. He supports the Trojans and often intervenes in the war on their behalf.",
+        "Aphrodite": "Goddess of love and daughter of Zeus, Aphrodite is married to Hephaestus but maintains a romantic relationship with Ares. She supports Paris and the Trojans throughout the war, though she proves somewhat ineffectual in battle.",
+        "Poseidon": "The brother of Zeus and god of the sea. Poseidon holds a long-standing grudge against the Trojans because they never paid him for helping them to build their city. He therefore supports the Achaeans in the war.",
+        "Hephaestus": "God of fire and husband of Aphrodite, Hephaestus is the gods’ metalsmith and is known as the lame or crippled god. Although the text doesn’t make clear his sympathies in the mortals’ struggle, he helps the Achaeans by forging a new set of armor for Achilles and by rescuing Achilles during his fight with a river god.",
+        "Artemis": "Goddess of the hunt, daughter of Zeus, and twin sister of Apollo. Artemis supports the Trojans in the war.",
+        "Ares": "God of war and lover of Aphrodite, Ares generally supports the Trojans in the war.",
+        "Hermes": "The messenger of the gods. Hermes escorts Priam to Achilles’ tent in Book 24.",
+        "Iris": "Zeus’s messenger. "
+    }
 }
