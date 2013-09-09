@@ -1,4 +1,3 @@
-- hermes: ping them all
 - trojan
 - setting up easily for staging: perhaps 'smrt paris -H stage' where 'stage'
   there is a headnode ssh login (in my ~?.ssh/config)
@@ -9,6 +8,7 @@
     - gives desc on that character
 - helen:
     smrt helen [-n <num>] [<image-name>[:<package-name>]]
+- hermes <command>: like sdc-oneachnode for each
 - achilles: wait for deleting and print each machine on deletion completion
 - finish paris (creating profiles nicely)
 
