@@ -3,13 +3,16 @@
         "http://en.wikipedia.org/wiki/List_of_Homeric_characters",
         "http://www.sparknotes.com/lit/iliad/characters.html"
     ],
+    "// both": "I pulled Helen out because too confusing to have 'smrt helen' launch a machine called 'Helen'",
+    "both" : {
+        "Helen": "Reputed to be the most beautiful woman in the ancient world, Helen was stolen from her husband, Menelaus, and taken to Troy by Paris. She loathes herself now for the misery that she has caused so many Trojan and Achaean men. Although her contempt extends to Paris as well, she continues to stay with him."
+    },
     "greeks": {
         "Achilles": "The son of the military man Peleus and the sea-nymph Thetis. The most powerful warrior in The Iliad, Achilles commands the Myrmidons, soldiers from his homeland of Phthia in Greece. Proud and headstrong, he takes offense easily and reacts with blistering indignation when he perceives that his honor has been slighted. Achilles’ wrath at Agamemnon for taking his war prize, the maiden Briseis, forms the main subject of The Iliad.",
         "Agamemnon": "King of Mycenae and leader of the Achaean army; brother of King Menelaus of Sparta. Arrogant and often selfish, Agamemnon provides the Achaeans with strong but sometimes reckless and self-serving leadership. Like Achilles, he lacks consideration and forethought. Most saliently, his tactless appropriation of Achilles’ war prize, the maiden Briseis, creates a crisis for the Achaeans, when Achilles, insulted, withdraws from the war.",
         "Ajax": "An Achaean commander, Great Ajax (sometimes called “Telamonian Ajax” or simply “Ajax”) is the second mightiest Achaean warrior after Achilles. His extraordinary size and strength help him to wound Hector twice by hitting him with boulders. He often fights alongside Little Ajax, and the pair is frequently referred to as the “Aeantes.”",
         "Calchas": "An important soothsayer. Calchas’s identification of the cause of the plague ravaging the Achaean army in Book 1 leads inadvertently to the rift between Agamemnon and Achilles that occupies the first nineteen books of The Iliad.",
         "Diomedes": "The youngest of the Achaean commanders, Diomedes is bold and sometimes proves impetuous. After Achilles withdraws from combat, Athena inspires Diomedes with such courage that he actually wounds two gods, Aphrodite and Ares.",
-        "Helen": "Reputed to be the most beautiful woman in the ancient world, Helen was stolen from her husband, Menelaus, and taken to Troy by Paris. She loathes herself now for the misery that she has caused so many Trojan and Achaean men. Although her contempt extends to Paris as well, she continues to stay with him.",
         "Idomeneus": "King of Crete and a respected commander. Idomeneus leads a charge against the Trojans in Book 13.",
         "Little Ajax": "An Achaean commander, Little Ajax is the son of Oileus (to be distinguished from Great Ajax, the son of Telamon). He often fights alongside Great Ajax, whose stature and strength complement Little Ajax’s small size and swift speed. The two together are sometimes called the “Aeantes.”",
         "Machaon": "A healer. Machaon is wounded by Paris in Book 11.",
