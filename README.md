@@ -5,6 +5,11 @@ API](http://apidocs.joyent.com/cloudapi/). There are a number of SDC clouds out
 there. [Joyent has one](https://my.joyentcloud.com). Let's do some stuff with
 an SDC cloudapi while reliving the Iliad.
 
+Status: Currently the descriptions in this README are more the design docs
+than the current status. The best current status if via the online help
+from the 'smrt' command: `smrt help <command>`.
+
+
 # smrt paris (partially implemented)
 
 Manage 'smrt profiles', the config to talk to a given SDC cloudapi
@@ -94,11 +99,8 @@ Examples:
     ... repeat N-1 times (default N is 3)
     ... wait for all provisions
 
-TODO:
-    smrt helen [-n <num>] [<image-name>[:<package-name>] ...]
 
-
-# smrt achilles (NYI)
+# smrt achilles
 
 Achilles' rage. Delete all Homeric instances *and images* (for the current
 smrt profile). Homeric instances and images are those tagged with `{"homeric":
@@ -107,7 +109,7 @@ true}`, use `smrt iris` to list them all.
     smrt achilles [-I|--skip-images] [<name-pattern>]
 
 
-# smrt trojan (NYI)
+# smrt trojan
 
 Make a custom image. The "trojan" is the script run to add customizations
 to the origin image.
@@ -120,4 +122,3 @@ Examples:
     ... finds latest image named '*centos*'
     ... chooses a Trojan name from the Iliad
     ... creates an instance
-    XXX
