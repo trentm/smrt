@@ -1,4 +1,11 @@
 - test helen and trojan on beta4, ams1, east1, ...
+- "OS" column in iris output (and in summaries in helen output). Perhaps put OS
+  in the names?
+    Nestor-20130919T080438Z-0
+    -> Nestor-linux-<7char-sha-generation>-0
+    -> Teucer-smartos-4ab45de-0
+- If date removed from names, then want CREATED column in iris output.
+- Default profile should be the "SDC_*" envvars.
 - better help for helen showing that N vms comes from args too
 - node-smartdc: CloudAPI should take a logger (with default to curr behaviour)
   Then could passing src:true.
