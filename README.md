@@ -59,9 +59,10 @@ This will interactively walk through creating a 'smrt profile'.
 # smrt aphrodite
 
 Setup COAL to be able to use cloudapi in it, then update/add your "coal"
-profile and make it the default.
+profile.
 
     $ smrt aphrodite
+    $ smrt paris coal    # make COAL your default profile
 
 Aphrodite was also responsible for setting up the Trojan war: by making Paris
 and Helen fall in love.
