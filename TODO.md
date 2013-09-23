@@ -1,4 +1,4 @@
-- test helen and trojan on beta4, ams1, east1, ...
+- iris -a|--all
 - "OS" column in iris output (and in summaries in helen output). Perhaps put OS
   in the names?
     Nestor-20130919T080438Z-0
@@ -18,7 +18,6 @@
 - setting up easily for staging: perhaps 'smrt paris -H stage' where 'stage'
   there is a headnode ssh login (in my ~?.ssh/config)
 - iris listing of images: show the originNameVer
-- iris -a|--all
 - whois [name]
     - random name
     - gives desc on that character
