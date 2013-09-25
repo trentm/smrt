@@ -6,19 +6,19 @@ there. [Joyent has one](https://my.joyentcloud.com). Let's do some stuff with
 an SDC cloudapi while reliving the Iliad.
 
 Status: Currently the descriptions in this README are more the design docs
-than the current status. The best current status if via the online help
+than the current status. The best current status is via the online help
 from the 'smrt' command: `smrt help <command>`.
 
 
 # smrt paris (partially implemented)
 
-Manage 'smrt profiles', the config to talk to a given SDC cloudapi
+Manage smrt 'profiles', the config to talk to a given SDC cloudapi
 with a particular account. If you are looking to setup your *COAL*,
 then look to `smrt aphrodite`.
 
 Paris got the Trojan War started. So he'll set it up for you:
 
-    smrt paris [<profile>]
+    smrt paris [<profile>]    # WARNING: not yet implemented
 
 This will interactively walk through creating a 'smrt profile'.
 
