@@ -1,4 +1,4 @@
-- iris -a|--all
+- achilles 2 minute hang ~6 machine deletes *if using node 0.10*!
 - "OS" column in iris output (and in summaries in helen output). Perhaps put OS
   in the names?
     Nestor-20130919T080438Z-0
@@ -6,7 +6,6 @@
     -> Teucer-smartos-4ab45de-0
 - If date removed from names, then want CREATED column in iris output.
 - Default profile should be the "SDC_*" envvars.
-- better help for helen showing that N vms comes from args too
 - node-smartdc: CloudAPI should take a logger (with default to curr behaviour)
   Then could passing src:true.
 - name selection: preload those for N before to avoid dupes
@@ -17,8 +16,7 @@
 - whois [name]
     - random name
     - gives desc on that character
-- helen:
-    smrt helen [-n <num>] [<image-name>[:<package-name>]]
 - hermes <command>: like sdc-oneachnode for each
 - achilles: wait for deleting and print each machine on deletion completion
 - finish paris (creating profiles nicely)
+- generalize to a "manage this multi-image/machine project" tool
