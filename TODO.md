@@ -1,3 +1,7 @@
+- ubuntu login for hermes for those images and sort out metadata user-script/user-data used
+  for those
+- upgrade restify
+
 - achilles 2 minute hang ~6 machine deletes *if using node 0.10*!
 - "OS" column in iris output (and in summaries in helen output). Perhaps put OS
   in the names?
