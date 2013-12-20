@@ -34,7 +34,7 @@
     "smartdc": "git+ssh://git@github.com:joyent/node-smartdc.git#adea68b",
     "restify": "2.6.1",
     "extsprintf": "~1.0.2",
-    "progbar": "0.0.2",
+    "progbar": "0.1.0",
     "strsplit": "1.0.0"
   }
 }
