@@ -20,7 +20,6 @@
 - whois [name]
     - random name
     - gives desc on that character
-- hermes <command>: like sdc-oneachnode for each
 - achilles: wait for deleting and print each machine on deletion completion
 - finish paris (creating profiles nicely)
 - generalize to a "manage this multi-image/machine project" tool
